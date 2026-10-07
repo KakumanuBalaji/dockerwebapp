@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: balajikakumanu/techm-oct:javaapp"
+    image: balajikakumanu/techm-oct:javaapp
     ports:
       - "1111:8080"
     deploy:
